@@ -42,6 +42,9 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
+#To Run Storybook:
+$yarn storybook
+
 # build for production and launch server
 $ yarn build
 $ yarn start
