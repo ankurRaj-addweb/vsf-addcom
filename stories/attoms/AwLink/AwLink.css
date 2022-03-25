@@ -1,0 +1,11 @@
+.aw-link{
+    text-decoration:none;
+    color: rgba(30, 31, 32, 0.959);
+    font-size: 20px;
+}
+.aw-link:hover{
+    color: rgb(123, 8, 255);
+    border-bottom: 1px solid rgb(123, 8, 255);;
+}
+
+
