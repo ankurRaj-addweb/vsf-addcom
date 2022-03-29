@@ -1,6 +1,6 @@
 import  AwRadio  from "./AwRadio.vue";
 export default {
-  title: "Components/Molecules/Radio",
+  title: "Components/molecules/Radio",
   component: AwRadio,
   parameters: {
     // do not modify cssprops manually, they are generated automatically by update-components-docs script

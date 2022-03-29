@@ -1,7 +1,7 @@
 import AwAddToCart  from "./AwAddToCart.vue";
 
 export default {
-  title: "Components/Molecules/AddToCart",
+  title: "Components/molecules/AddToCart",
   component: AwAddToCart,
   parameters: {
     // do not modify cssprops manually, they are generated automatically by update-components-docs script

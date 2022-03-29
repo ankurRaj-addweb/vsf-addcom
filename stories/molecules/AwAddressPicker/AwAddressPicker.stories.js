@@ -2,7 +2,7 @@ import AwAddressPicker from "./AwAddressPicker.vue";
 import AwAddress from "./_internal/AwAddress.vue";
 
 export default {
-  title: "Components/Molecules/AddressPicker",
+  title: "Components/molecules/AddressPicker",
   component: AwAddress,
   parameters: {
     // do not modify cssprops manually, they are generated automatically by update-components-docs script
