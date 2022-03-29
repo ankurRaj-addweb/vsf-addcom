@@ -39,7 +39,7 @@ export default {
         control: "text",
       },
     },
-    // end of code generated automatically 
+
     docs: {
       description: {
         component:
