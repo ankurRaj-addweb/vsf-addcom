@@ -4,7 +4,7 @@ import getConfig from "../../../node_modules/cloudinary-build-url";
 import placeholderTypes from "./helpers";
 
 export default {
-  name: "AwCimg",
+  name: "AwCimg", 
   functional: true,
   props: {
     publicId: {
