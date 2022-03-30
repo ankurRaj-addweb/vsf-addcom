@@ -13,7 +13,7 @@ Vue.component("AwTableRow", AwTableRow);
 Vue.component("AwTableData", AwTableData);
 Vue.component("AwTableHeader", AwTableHeader);
 Vue.component("AwTableHeading", AwTableHeading);
-export default {
+export default { 
   name: "AwTable",
   provide() {
     const table = {};
