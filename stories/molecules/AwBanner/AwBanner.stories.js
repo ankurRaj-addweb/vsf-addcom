@@ -1,5 +1,5 @@
 import AwBanner from "./AwBanner.vue";
-import AwCimage from "../AwCimage/AwCimage.vue";
+import AwCimage from "../../atoms/AwCimage/AwCimage.vue";
 // import banner from "../../../../public/assets/storybook/AwBanner/Banner2.jpg";
 import banner from "./image/c.jpg";
 
