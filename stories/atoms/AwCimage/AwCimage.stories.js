@@ -4,7 +4,7 @@ import placeholderTypes from "./helpers";
 
 export default {
   title: "Getting Started/Integrations/Cloudinary/Image",
-  component: AwCimage,
+  component: AwCimage, 
   decorators: [
     () => ({
       template: `<div>
