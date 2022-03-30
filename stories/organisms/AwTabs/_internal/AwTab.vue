@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div class="aw-tabs__tab">
     <slot name="title" v-bind="{ tabClick, isActive, title }">
       <AwButton

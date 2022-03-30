@@ -33,7 +33,7 @@ export default {
       initialTabActivated: false,
     };
   },
-  watch: {
+  watch: { 
     openTab(newValue, oldValue) {
       if (newValue === oldValue) return;
       this.toggle(this.$children[newValue - 1]._uid);

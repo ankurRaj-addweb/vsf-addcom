@@ -1,7 +1,7 @@
 import AwTabs from "./AwTabs.vue";
 import AwButton from "../../atoms/AwButton/AwButton.vue";
 import AwTab from "./_internal/AwTab.vue";
-
+ 
 export default {
   title: "Components/Organisms/Tabs",
   component: AwTab,
