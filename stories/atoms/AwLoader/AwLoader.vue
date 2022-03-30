@@ -51,9 +51,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.sf-loader__spinner {
-    stroke: var(--loader-spinner-stroke, var(--c-primary));
-}
-</style>
