@@ -1,6 +1,8 @@
 // import { shallowMount } from "@vue/test-utils";
 import AwAddress from "./AwAddress.vue";
+
 import AwAddressPicker from "../AwAddressPicker.vue";
+
 
 describe("AwAddress.vue", () => {
   it("renders a component", () => {
