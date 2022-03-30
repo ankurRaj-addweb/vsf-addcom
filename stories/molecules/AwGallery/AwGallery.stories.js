@@ -210,52 +210,52 @@ Common.args = {
   images: [
     {
       desktop: {
-        url: "assets/storybook/AwGallery/productA.png",
+        url:require("../../../static/AwGallery/productA.png"),
       },
       mobile: {
-        url: "assets/storybook/AwGallery/productA.png",
+        url: require("../../../static/AwGallery/productA.png"),
       },
       zoom: {
-        url: "assets/storybook/AwGallery/productA.png",
+        url: require("../../../static/AwGallery/productA.png"),
       },
       alt: "Product A",
       placeholder: "https://via.placeholder.com/422x664",
     },
     {
       desktop: {
-        url: "assets/storybook/AwGallery/productB.jpg",
+        url: require("../../../static/AwGallery/productB.jpg"),
       },
       mobile: {
-        url: "assets/storybook/AwGallery/productB.jpg",
+        url: require("../../../static/AwGallery/productB.jpg"),
       },
       zoom: {
-        url: "assets/storybook/AwGallery/productB.jpg",
+        url: require("../../../static/AwGallery/productB.jpg"),
       },
       alt: "Product B",
       placeholder: "https://via.placeholder.com/422x664",
     },
     {
       desktop: {
-        url: "assets/storybook/AwGallery/productA.png",
+        url: require("../../../static/AwGallery/productA.png"),
       },
       mobile: {
-        url: "assets/storybook/AwGallery/productA.png",
+        url:require("../../../static/AwGallery/productA.png"),
       },
       zoom: {
-        url: "assets/storybook/AwGallery/productA.png",
+        url: require("../../../static/AwGallery/productA.png"),
       },
       alt: "Product A",
       placeholder: "https://via.placeholder.com/422x664",
     },
     {
       desktop: {
-        url: "assets/storybook/AwGallery/productB.jpg",
+        url: require("../../../static/AwGallery/productB.jpg"),
       },
       mobile: {
-        url: "assets/storybook/AwGallery/productB.jpg",
+        url:require("../../../static/AwGallery/productB.jpg"),
       },
       zoom: {
-        url: "assets/storybook/AwGallery/productB.jpg",
+        url: require("../../../static/AwGallery/productB.jpg"),
       },
       alt: "Product B",
       placeholder: "https://via.placeholder.com/422x664",

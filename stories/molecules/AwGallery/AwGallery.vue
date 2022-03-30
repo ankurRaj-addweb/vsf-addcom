@@ -103,7 +103,7 @@
   </div>
 </template>
 <script>
-import Glide from "@glidejs/glide";
+import Glide from "../../glide";
 import AwImage from "../../atoms/AwImage/AwImage.vue";
 import AwButton from "../../atoms/AwButton/AwButton.vue";
 
