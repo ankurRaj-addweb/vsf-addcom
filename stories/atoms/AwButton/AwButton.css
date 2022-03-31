@@ -1,5 +1,5 @@
 .aw-button {
-    background-color:#564beb;
+    background-color:#c4c1e7;
     background-color: none;
     border:none;
     width: 17%;
@@ -8,6 +8,6 @@
     font-size: 20px;
 }
 .aw-button:hover {
-    background-color: #3127bd;
+    background-color: #b4b1da;
 }
 
