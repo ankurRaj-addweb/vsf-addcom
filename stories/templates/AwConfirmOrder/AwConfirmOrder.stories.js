@@ -15,7 +15,7 @@ const orderData = {
   orderItems: [
     {
       title: "Cream Beach Bag",
-      image: "/assets/storybook/Home/productA.jpg",
+      image: require("../../../static/Home/productA.jpg"),
       price: { regular: "$50.00" },
       configuration: [
         { name: "Size", value: "XS" },
@@ -26,7 +26,7 @@ const orderData = {
     },
     {
       title: "Vila stripe maxi dress",
-      image: "/assets/storybook/Home/productB.jpg",
+      image: require("../../../static/Home/productB.jpg"),
       price: { regular: "$50.00", special: "$20.05" },
       configuration: [
         { name: "Size", value: "XS" },
