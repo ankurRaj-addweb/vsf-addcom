@@ -491,7 +491,7 @@ export const UseActionsSlot = (args, { argTypes }) => ({
     <template #actions>
       CUSTOM ACTIONS
     </template>
-  </SfCollectedProduct>`,
+  </AwCollectedProduct>`,
 });
 UseActionsSlot.args = { ...Common.args };
 
@@ -596,7 +596,7 @@ export const UseInputSlot = (args, { argTypes }) => ({
     <template #input>
       CUSTOM INPUT
     </template>
-  </SfCollectedProduct>`,
+  </AwCollectedProduct>`,
 });
 UseInputSlot.args = { ...Common.args };
 
@@ -631,7 +631,7 @@ export const UseTitleSlot = (args, { argTypes }) => ({
     <template #title>
       CUSTOM TITLE
     </template>
-  </SfCollectedProduct>`,
+  </AwCollectedProduct>`,
 });
 UseTitleSlot.args = { ...Common.args };
 
@@ -666,6 +666,6 @@ export const UsePriceSlot = (args, { argTypes }) => ({
     <template #price>
       CUSTOM PRICE
     </template>
-  </SfCollectedProduct>`,
+  </AwCollectedProduct>`,
 });
 UsePriceSlot.args = { ...Common.args };
