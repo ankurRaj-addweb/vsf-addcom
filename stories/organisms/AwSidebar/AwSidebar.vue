@@ -65,7 +65,9 @@ import clickOutside from "../../../utilities/directives/";
 import { disableBodyScroll, clearAllBodyScrollLocks } from "body-scroll-lock";
 import isClient from "../../../utilities/helpers";
 import AwBar from "../../molecules/AwBar/AwBar.vue";
-import AwCircleIcon from "../../atoms/Awcirclelcon/AwCircleIcon.vue";
+
+import AwCircleIcon from "../../atoms/AwCircleIcon/AwCircleIcon.vue";
+
 import AwOverlay from "../../atoms/AwOverlay/AwOverlay.vue";
 import AwHeading from "../../atoms/AwHeadings/AwHeading.vue";
 export default {

@@ -1,4 +1,6 @@
-import AwSidebar from "./SfSidebar.vue";
+
+import AwSidebar from "./AwSidebar.vue";
+
 
 export default {
   title: "Components/Organisms/Sidebar",
