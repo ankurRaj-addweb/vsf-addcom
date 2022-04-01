@@ -29,6 +29,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@cld-apis/utils": "^0.2.0",
     "@nuxt/image": "^0.6.1",
     "@nuxtjs/composition-api": "^0.31.0",
     "@nuxtjs/device": "^2.1.0",
@@ -43,6 +44,7 @@
     "@vue-storefront/nuxt": "~2.5.4",
     "@vue-storefront/nuxt-theme": "~2.5.4",
     "@vue-storefront/redis-cache": "^1.0.1",
+    "cloudinary-build-url": "^0.2.4",
     "convict": "^6.2.1",
     "convict-format-with-validator": "^6.2.0",
     "cookie-universal-nuxt": "^2.1.5",
@@ -64,6 +66,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
+    "@cld-apis/types": "^0.1.6",
     "@nuxt/types": "latest",
     "@nuxt/typescript-build": "latest",
     "@storybook/addon-actions": "^6.4.19",
@@ -111,6 +114,6 @@
     "vue": "^2.6.11"
   },
   "engines": {
-    "node": "16.14.2"
+    "node": "17.2.0"
   }
 }
