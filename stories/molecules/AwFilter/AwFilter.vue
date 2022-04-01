@@ -13,7 +13,7 @@
           :color="color"
           :has-badge="false"
           :selected="selected"
-          class="sf-filter__color"
+          class="aw-filter__color"
           @click="$emit('change', !selected)"
         />
       </slot>

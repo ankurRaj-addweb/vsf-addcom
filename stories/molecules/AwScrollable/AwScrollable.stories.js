@@ -153,7 +153,7 @@ export const UseButtonSlot = (args, { argTypes }) => ({
     :show-text="showText" 
     :hide-text="hideText"
     :max-content-height="maxContentHeight"
-    :class="{ 'sf-scrollable--is-open': !isHidden }"
+    :class="{ 'aw-scrollable--is-open': !isHidden }"
     style="max-width: 13.75rem"
   >
     <AwProductOption 

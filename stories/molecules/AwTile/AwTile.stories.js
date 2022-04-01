@@ -79,8 +79,8 @@ export const Common = Template.bind({});
 Common.args = {
   title: "Bags",
   background: {
-    mobile: "/assets/storybook/SfTile/tileB-m.jpg",
-    desktop: "/assets/storybook/SfTile/tileB.jpg",
+    mobile: "../../../static/AwTile/tileB-m.jpg",
+    desktop: "../../../static/AwTile/tileB.jpg",
   },
   link: "https://www.storefrontui.io/",
 };

@@ -3,7 +3,7 @@
     <slot name="title" v-bind="{ title }">
       <AwHeading
         :class="{ 'display-none': !title }"
-        class="sf-tile__title"
+        class="aw-tile__title"
         :level="3"
         :title="title"
       />
