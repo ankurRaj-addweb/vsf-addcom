@@ -1,0 +1,84 @@
+<template>
+  <section class="aw-call-to-action" :style="style">
+    <div class="aw-call-to-action__text-container">
+      <slot name="title" v-bind="{ title }">
+        <h2
+          :class="{ 'display-none': !title }"
+          class="aw-call-to-action__title"
+        >
+          {{ title }}
+        </h2>
+      </slot>
+      <slot name="description" v-bind="{ description }">
+        <p
+          :class="{ 'display-none': !description }"
+          class="aw-call-to-action__description"
+        >
+          {{ description }}
+        </p>
+      </slot>
+    </div>
+    <slot name="button" v-bind="{ buttonText }">
+      <AwButton
+        :class="{ 'display-none': !buttonText }"
+        :link="link"
+        class="aw-call-to-action__button"
+        data-testid="cta-button"
+        @click="$emit('click')"
+      >
+        {{ buttonText }}
+      </AwButton>
+    </slot>
+  </section>
+</template>
+<script>
+import AwButton from "../../atoms/AwButton/AwButton.vue";
+
+export default {
+  name: "AwCallToAction",
+  components: {
+    AwButton,
+  },
+  props: {
+    title: {
+      type: String,
+      default: "",
+    },
+    buttonText: {
+      type: String,
+      default: "",
+    },
+    link: {
+      type: String,
+      default: null,
+    },
+    description: {
+      type: String,
+      default: "",
+    },
+    background: {
+      type: String,
+      default: "",
+    },
+    image: {
+      type: [String, Object],
+      default: "",
+    },
+  },
+  computed: {
+    style() {
+      const image = this.image;
+      const background = this.background;
+      return {
+        "--_call-to-action-background-image": image.mobile
+          ? `url(${image.mobile})`
+          : `url(${image})`,
+        "--_call-to-action-background-desktop-image":
+          image.desktop && `url(${image.desktop})`,
+        "--_call-to-action-background-color": background,
+      };
+    },
+  },
+};
+</script>
+
